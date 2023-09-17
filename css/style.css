@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+}
+.master{
+    display: flex;
+    background-color: #0F1F2F;
+
+}
+.container_menu_lateral{
+    background-color: #072242;
+    width: 25.125rem;
+    height: 64rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+    border-right:1.5px solid #CC922F;
+}
+.tittle_menu_lateral{
+    color: white;
+    padding-bottom: 1rem;
+    
+}
+.tittle_menu_lateral h1{
+    font-weight: 400;
+}
+#img1 {
+    width: 238px;
+    height: 238px;
+    border-radius: 50%;
+}
+.content_perfil{
+    margin-top: 1.5rem;
+}
+.content_perfil p{
+    margin-left: 5rem;
+    text-align: left;
+}
+.content_perfil a{
+    text-decoration: none;
+    color: #F49D09;
+}
+.content_perfil a:hover{
+    border-bottom: 1px solid #F49D09;
+}
+.redes_sociais{
+    color: white;
+    margin-top: 4.1rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #F49D09;
+
+}
+.tittle_redes_sociais{
+    padding-bottom: 1.5rem;
+}
+.tittle_redes_sociais h1{
+    font-weight: 400;
+}
+.imagens_redes_sociais{
+    width: 100%;
+    height: 100%;
+
+}
+.imagens_redes_sociais img{
+    width: 44px;
+    height: 44px;
+    margin: 0 20px;
+}
+.contact_gmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.9rem;
+}
+.container_main{
+    color: white;
+    width: 61.188rem;
+    height: 30.1rem;
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+    border-bottom: 1px solid #CC922F;
+}
+.tittle_main{
+    height: 5rem;
+}
+.tittle_main h1{
+    font-weight: 400;
+    font-size: 48px;   
+}
+.sub_tittle {
+    height: 5rem;
+}
+.sub_tittle h1{
+    color: #F49D09;
+    font-weight: 400;
+    font-size: 48px;
+
+}
+.content_paragrafo p{
+    font-size: 25px;
+}
+.button_ver_projetos{
+    display: flex;
+    width: 239px;
+    height: 71px;
+    background-color: #F49D09;
+    margin-top: 1.6rem;
+}
+.button_ver_projetos img{
+    width: 60px;
+    height: 60px;
+    padding-top:0.6rem;
+    padding-left: 1rem;
+
+}
+.button_ver_projetos a{
+    display: flex;
+    align-items: center;
+    width: 239px;
+    height: 71px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-left: 0.9rem;
+    
+}
+.button_ver_projetos:hover{
+    display: flex;
+    width: 239px;
+    height: 71px;
+    background-color: #cc8d1e;
+    margin-top: 1.6rem;
+}
+.container_skils{
+    color: white;
+    width: 61.188rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    
+}
+.tittle_skills{
+    height: 3.5rem;
+}
+.tittle_skills h1{
+    font-weight: 400;
+    font-size: 30px;
+}
+.tittle_name_skill{
+    display: flex;
+    width: 10rem;
+    padding-bottom: 0.9rem;
+}
+.tittle_name_skill h1{
+    margin-left: 12px;
+    font-weight: 400;
+
+}
+.color_left{
+    width: 5px;
+    height: 15px;
+    background-color: #CC922F;
+    
+}
+.gallery_skills{
+    display: flex;
+    justify-content: space-between;
+}
